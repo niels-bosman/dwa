@@ -1,0 +1,14 @@
+{
+  "player": {
+    "location": "mountain",
+    "items": []
+  },
+  "map": {
+    "mountain": {
+      "description": "a mountain range",
+      "exits": [
+        "town"
+      ]
+    }
+  }
+}

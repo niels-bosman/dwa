@@ -1,0 +1,20 @@
+<div id="quizDiv" style="padding: 20px; background-color: #aaf">
+  Quiz:
+</div>
+
+<script>
+  const quizComponent1 = {
+    question: 'Wat is 1 + 1?',
+    answer:   (1 + 1).toString(),
+    clickHandler() {
+      alert('Het antwoord is:\n' + this.answer);
+    },
+    render() {
+      const theDiv = document.getElementById('quizDiv');
+      theDiv.innerHTML += `<button>${this.question}</button>`;
+      theDiv.lastChild.addEventListener('click', () => this.clickHandler());
+    },
+  };
+
+  quizComponent1.render();
+</script>

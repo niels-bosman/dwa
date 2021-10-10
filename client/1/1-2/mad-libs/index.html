@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"/>
+  <title>Challenge: Mad Libs</title>
+</head>
+<body>
+
+<h1>Mad Libs</h1>
+
+<ul>
+  <li>Noun: <input type="text" id="noun"></li>
+  <li>Adjective: <input type="text" id="adjective"></li>
+  <li>Someone's Name: <input type="text" id="person"></li>
+</ul>
+
+<button id="lib-button">Lib it!</button>
+
+<p>Generated story:
+  <span id="story"></span>
+</p>
+
+<script>
+  const libButton = document.getElementById('lib-button');
+
+  const libIt = () => {
+    const
+      storyDiv  = document.getElementById('story'),
+      noun      = document.getElementById('noun').value,
+      adjective = document.getElementById('adjective').value,
+      name      = document.getElementById('person').value;
+
+    if (!!noun && !!adjective && !!name) {
+      storyDiv.innerHTML = `Noun is ${noun}, adjective is ${adjective} and person is ${name}`;
+    }
+  };
+  libButton.addEventListener('click', libIt);
+</script>
+
+</body>
+</html>

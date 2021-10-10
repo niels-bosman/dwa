@@ -1,0 +1,12 @@
+{
+  "name": "ica_adventure_mongoose",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "private": true,
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.3",
+    "mongoose": "^5.3.1"
+  }
+}
