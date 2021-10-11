@@ -8,6 +8,7 @@
 | [04 - Sessions and Rest](server/4)    | 9          |
 | [05 - Websockets](server/5)           | 6,9        |
 | [06 - MongoDB and Mongoose](server/6) | -          |
+| Gemiddeld eindcijfer                  | 9,12       |
 
 ### Client side web development.
 
@@ -19,3 +20,4 @@
 | [04 - More React](client/4)                         | 7,6        |
 | [05 - Advanced React](client/5)                     | 9,4        |
 | [06 - Redux](client/6)                              | -          |
+| Gemiddeld eindcijfer                                | 8,7        |
